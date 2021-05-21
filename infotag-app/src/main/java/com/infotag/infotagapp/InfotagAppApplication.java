@@ -1,13 +1,13 @@
-package com.infotag.infotag;
+package com.infotag.infotagapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InfotagApplication {
+public class InfotagAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(InfotagApplication.class, args);
+		SpringApplication.run(InfotagAppApplication.class, args);
 	}
 
 }

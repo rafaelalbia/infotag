@@ -1,10 +1,10 @@
-package com.infotag.infotag;
+package com.infotag.infotagapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class InfotagApplicationTests {
+class InfotagAppApplicationTests {
 
 	@Test
 	void contextLoads() {
