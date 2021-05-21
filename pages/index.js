@@ -4,6 +4,7 @@ import Text from '../src/styles/Text';
 import Container from '../src/styles/Container';
 import Login from '../src/styles/Login';
 import Button from '../src/styles/Button';
+import IconTwitter from '../src/styles/IconTwitter';
 
 export default function Home() {
   return (
@@ -11,86 +12,125 @@ export default function Home() {
       <Background>
         <Section>
           <Section.MainDiv
-            width={'50%'}
+            width={'20%'}
+            paddingLeft={'2.812rem'}
+            alignItems={'center'}
           >
             <Text
               fontSize={'4rem'}
               fontWeight={'bold'}
               fontFamily={'Inria Sans'}
               color={'white'}
+              paddingBottom={'7.75rem'}
+              textAlign={'center'}
             >
               InfoTag
             </Text>
 
-            <Text
-              fontSize={'2.25rem'}
-              fontWeight={'bold'}
-              fontFamily={'Inria Sans'}
-              color={'white'}
-            >
-              Bem-vindo!
-            </Text>
-
-            <Container>
-              <Text.Icon />
+            
               <Text
-                fontSize={'1.25rem'}
+                fontSize={'2.25rem'}
                 fontWeight={'bold'}
                 fontFamily={'Inria Sans'}
                 color={'white'}
+                marginBottom={'0px'}
+                textAlign={'center'}
               >
-                Faça login com seu Twitter
-                para começar
+                Bem-vindo!
               </Text>
-            </Container>
+  
+              <Container
+                justifyContent={'center'}
+                align={'center'}
+                textAlign={'center'}                
+              >
+                <IconTwitter />
+                <Text
+                  fontSize={'1.25rem'}
+                  fontWeight={'bold'}
+                  fontFamily={'Inria Sans'}
+                  color={'white'}
+                  textAlign={'left'}
+                >
+                  Faça login com seu Twitter {<br />}
+                  para começar
+                </Text>
+              </Container>
+  
+              <Container
+                display="flex" 
+                justifyContent={'center'}
+                align={'center'}
+                textAlign={'center'}              
+              >
+                <Login>
+                  Fazer login
+                </Login>
+                <Login.Succeed />
+              </Container>
 
-            <Container>
-              <Login>
-                Fazer login
-              </Login>
-              <Login.Succeed />
-            </Container>
-
-            <Button
-              height={'4.062rem'}
-              width={'14.375rem'}
-              borderRadius={'5px'}
-              backgroundColor={'rgba(112, 67, 197, 0.9)'}
-              fontSize={'1.5rem'}
-              boxShadow={'0px 0px 5px 1px rgba(0, 0, 0, 0.3)'}
+            <Container
+              display="flex"
+              justifyContent={'center'}
+              align={'center'}
+              textAlign={'center'}
             >
-              Documentação
-            </Button>
+              <Button
+                height={'4.062rem'}
+                width={'14.375rem'}
+                borderRadius={'5px'}
+                backgroundColor={'rgba(112, 67, 197, 0.9)'}
+                fontSize={'1.5rem'}
+                boxShadow={'0px 0px 5px 1px rgba(0, 0, 0, 0.3)'}
+                marginTop={'21.5rem'}
+              >
+                Documentação
+              </Button>
+            </Container>
 
           </Section.MainDiv>
 
           <Section.MainDiv
-            width={'50%'}
+            width={'80%'}
+            position={'relative'}
           >
-            <Text
-              fontSize={'1.375rem'}
-              fontWeight={'normal'}
-              fontFamily={'Lexend Deca'}
-              color={'white'}
+            <Container
+              position={'relative'}
+              top={'33%'}
+              left={'45%'}
+              width={'43rem'}
+              justifyContent={'center'}
+              align={'center'}
+              textAlign={'center'}
             >
-              InfoTag é uma aplicação que possui integração
-              total com o Twitter
+              <Text
+                fontSize={'1.375rem'}
+                fontWeight={'normal'}
+                fontFamily={'Lexend Deca'}
+                color={'white'}
+                textAlign={'center'}
+              >
+                InfoTag é uma aplicação que possui integração
+                total com o Twitter {<br />}
+                {<br />}
+                Você poderá buscar por hashtags,
+                analisar tweets (com IBM Watson)
+                e muito mais!
+              </Text>
+  
+              <Button
+                  height={'4.062rem'}
+                  width={'21.25rem'}
+                  borderRadius={'50px'}
+                  backgroundColor={'#0043C6'}
+                  fontSize={'1.5rem'}
+                  boxShadow={'0px 0px 10px 3px rgba(0, 67, 198, 0.45)'}
+                  marginTop={'7rem'}
+                >
+                  Repositório oficial
+                </Button>
+            </Container>
 
-              Você poderá buscar por hashtags,
-              analisar tweets (com IBM Watson)
-              e muito mais!
-            </Text>
-
-            <Button
-              height={'4.062rem'}
-              width={'21.25rem'}
-              borderRadius={'50px'}
-              backgroundColor={'#0043C6'}
-              fontSize={'1.5rem'}
-              boxShadow={'0px 0px 10px 3px rgba(0, 67, 198, 0.45)'}
-            >
-              Repositório oficial
-            </Button>
           </Section.MainDiv>
 
         </Section>

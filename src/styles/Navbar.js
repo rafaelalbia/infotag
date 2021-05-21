@@ -9,18 +9,18 @@ const Navbar = styled.nav`
 Navbar.Seach = styled.input`
   width: ${({ width }) => width};
   height: ${({ height }) => height};
-  background: rgba(196, 196, 196, 0.1);
+  background-color: ${({ backgroundColor }) => backgroundColor};
   border: 1px solid #DADADA;
   box-sizing: border-box;
   border-radius: 15px;
-  margin-top: 1.625rem;
-  margin-left: 6.875rem;
+  margin-top: ${({ marginTop }) => marginTop};
+  margin-left: ${({ marginLeft }) => marginLeft};
 `;
 
 Navbar.Loggout = styled.button`
   height: 2.125rem;
   width: 5.375rem;
-  background: rgba(196, 196, 196, 0.1);
+  background-color: rgba(196, 196, 196, 0.1);
   border: 1px solid #AEAEAE;
   box-sizing: border-box;
   border-radius: 8px;
