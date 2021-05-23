@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Background from '../src/styles/Background';
 import Section from '../src/styles/Section';
 import Navbar from '../src/styles/Navbar';
@@ -11,6 +12,9 @@ import database from '../src/images/database.png';
 export default function Home() {
     return (
         <>
+          <Head>
+            <script type="module" src="./static/Analyze.js"></script>
+          </Head>
           <Background>
             <Section>
               <Section.MainDiv

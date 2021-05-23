@@ -1,8 +1,9 @@
-const express = require('express');
-const app = express();
-const Twit = require('twit');
-const NaturalLanguageUnderstanding = require('ibm-watson/natural-language-understanding/v1');
-const { IamAuthenticator } = require('ibm-watson/auth');
+import express from '/express';
+const app = express(), port = 3080;
+import Twit from '/twit';
+import NaturalLanguageUnderstanding from '/ibm-watson/natural-language-understanding/v1';
+import { IamAuthenticator } from '/ibm-watson/auth';
+
 
 /*
  IBM Watson API, Natural Language Understanding configuration
@@ -50,4 +51,5 @@ T.get('search/tweets', { q: '#tesla', count: 5 }, function(err, data, response) 
   }
 })
 
-app.listen(3000);
+app.listen(port);
+
