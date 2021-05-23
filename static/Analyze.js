@@ -50,5 +50,3 @@ T.get('search/tweets', { q: '#tesla', count: 5 }, function(err, data, response) 
     });
   }
 })
-
-app.listen(port);
