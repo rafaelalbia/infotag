@@ -6,17 +6,6 @@ const Navbar = styled.nav`
   border-radius: 0px 35px 0px 0px;
 `;
 
-Navbar.Seach = styled.input`
-  width: ${({ width }) => width};
-  height: ${({ height }) => height};
-  background-color: ${({ backgroundColor }) => backgroundColor};
-  border: 1px solid #DADADA;
-  box-sizing: border-box;
-  border-radius: 15px;
-  margin-top: ${({ marginTop }) => marginTop};
-  margin-left: ${({ marginLeft }) => marginLeft};
-`;
-
 Navbar.Loggout = styled.button`
   height: 2.125rem;
   width: 5.375rem;

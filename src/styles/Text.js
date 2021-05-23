@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 const Text = styled.h1`
+  display: ${({ display }) => display};
+  width: ${({ width }) => width};
   color: ${({ color }) => color };
   font-size: ${({ fontSize }) => fontSize };
   font-weight: ${({ fontWeight }) => fontWeight };

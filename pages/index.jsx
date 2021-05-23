@@ -86,6 +86,7 @@ export default function Home() {
               >
                 Documentação
               </Button>
+
             </Container>
 
           </Section.MainDiv>
@@ -129,11 +130,13 @@ export default function Home() {
                 >
                   Repositório oficial
                 </Button>
+                
             </Container>
 
           </Section.MainDiv>
 
         </Section>
+
       </Background>
     </>
   );
