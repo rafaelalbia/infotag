@@ -1,5 +1,5 @@
 import express from '/express';
-const app = express(), port = 3080;
+const app = express();
 import Twit from '/twit';
 import NaturalLanguageUnderstanding from '/ibm-watson/natural-language-understanding/v1';
 import { IamAuthenticator } from '/ibm-watson/auth';
@@ -52,4 +52,3 @@ T.get('search/tweets', { q: '#tesla', count: 5 }, function(err, data, response) 
 })
 
 app.listen(port);
-
