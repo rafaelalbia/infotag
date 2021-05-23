@@ -1,0 +1,21 @@
+{
+    "twitter": [
+        {
+            "api_key": "9biplgXRTucIdAzTB2zLOJcAF",
+            "api_key_secret": "a6HYlPcDgWHFOXCIGiZsXRZieCriqHq5E4tBn7wkdHTLBrNcWO",
+            "bearer_token": "AAAAAAAAAAAAAAAAAAAAACDEPwEAAAAA2o6D7DwHABFDa9pRQ%2BNbmZqFZGM%3DMz5KpVASh3iwA4KNOjdwLprspkPC6DNNt38Y4bql6s5G2Qaszk",
+            "acess_token": "1395470197310595079-3Llo9Dalpd7rcUGFkqGUtc1NZK40H2",
+            "acess_token_secret": "4OL9viqF6PSSLtBzP5027s38exJniXh8OTDVzkDr6wbMY"
+        }
+    ],
+    "ibmwatson": [
+        {
+            "api_key": "CW-B_O2VgWybE2QMJOnsf8kPYFTH5OIQ8YLWNU-TijJD",
+            "iam_apikey_description": "Auto-generated for key 0df82f00-d383-432c-993c-dc4085f3e326",
+            "iam_apikey_name": "Auto-generated service credentials",
+            "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+            "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/d9b9283b661c4205b894fa45c12fa2d1::serviceid:ServiceId-f64a77c0-c04b-4fda-8683-293f6eb9457d",
+            "url": "https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/d4b4debf-8a37-408c-b7da-198551b72ec2"
+        }
+    ]
+}

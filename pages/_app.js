@@ -24,6 +24,8 @@ export default function App({ Component, pageProps }) {
       <Head>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet"/>
+        <script src="../src/scripts/Server">
+        </script>
       </Head>
       <GlobalStyle />
       <ThemeProvider theme={theme}>
