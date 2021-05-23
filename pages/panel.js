@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Background from '../src/styles/Background';
 import Section from '../src/styles/Section';
 import Navbar from '../src/styles/Navbar';
