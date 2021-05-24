@@ -5,8 +5,14 @@ import Container from '../src/styles/Container';
 import Login from '../src/styles/Login';
 import Button from '../src/styles/Button';
 import IconTwitter from '../src/styles/IconTwitter';
+import useAuth from '../src/hooks/useAuth';
+
 
 export default function Home() {
+
+  const { user, signin } = useAuth();
+  console.log('user', user);
+
   return (
     <>
       <Background>
@@ -63,7 +69,7 @@ export default function Home() {
                 align={'center'}
                 textAlign={'center'}              
               >
-                <Login>
+                <Login onClick={() => signin()}>
                   Fazer login
                 </Login>
                 <Login.Succeed />
