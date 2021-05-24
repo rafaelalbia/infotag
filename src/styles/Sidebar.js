@@ -10,10 +10,22 @@ const Sidebar = styled.nav`
   vertical-align: middle;
 `;
 
-Sidebar.Item = styled.div`
-  height: 2.812rem;
+Sidebar.Enabled = styled.button`
+  height: 60px;
   width: 100%;
+  align-items: center;
   position: relative;
+  border: none;
+  top: ${({ top }) => top };
+  background-color: rgba(126, 92, 191, 0.15);
+`;
+
+Sidebar.Item = styled.button`
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  border: none;
   top: ${({ top }) => top };
 `;
 
