@@ -17,10 +17,10 @@ const nlu = new NaturalLanguageUnderstanding({
  Twiter API, Twit configuration
 */
 var T = new Twit({
-  consumer_key: '9biplgXRTucIdAzTB2zLOJcAF',
-  consumer_secret: 'a6HYlPcDgWHFOXCIGiZsXRZieCriqHq5E4tBn7wkdHTLBrNcWO',
-  access_token: '1395470197310595079-3Llo9Dalpd7rcUGFkqGUtc1NZK40H2',
-  access_token_secret: '4OL9viqF6PSSLtBzP5027s38exJniXh8OTDVzkDr6wbMY',
+  consumer_key: '8w23YM4JRsWWd8Jp7vFoo9mSv',
+  consumer_secret: 'll7l49FHT6bqWEZPgq7lISoLcWXWx3lV17Uha1rRWsRsCCfpFR',
+  access_token: '1395470197310595079-f0H7eAfPaVdaY1hOOzoqywmFBnYGPc',
+  access_token_secret: 'G103eIyQajJzfxITo8qIh9SGVBYEPnnrru4NGrjKbLAQq',
   timeout_ms: 60*1000,  // optional HTTP request timeout to apply to all requests.
   strictSSL: true,     // optional - requires SSL certificates to be valid.
 })
